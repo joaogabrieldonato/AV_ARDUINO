@@ -78,6 +78,8 @@ void isr_101m ();
 bool read_config();
 //bool write_config();
 byte countFiles(File dir);
+void isr_void ();
+void printRun();
 
 void setup()
 {
